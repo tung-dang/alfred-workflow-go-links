@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/tung-dang/alfred-workflow-go-links",
   "dependencies": {
-    "alfred-workflow-nodejs-next": "^1.0.2"
+    "alfred-workflow-nodejs-next": "^1.0.5"
   },
   "scripts": {
     "export-wf": "tar -cv . | gzip > exported-workflow-file/Go.alfredworkflow"

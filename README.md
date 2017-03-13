@@ -1,6 +1,6 @@
 ## Features
 
-Quick access list of urls that are simple pre-defined text file `go_list.txt`;
+Quick access list of bookmarks that are pre-defined in a simple text file `go_list.txt`;
 
 ## Installation
 
@@ -17,8 +17,8 @@ Open terminal at source code workflow
 ## Usage in Alfred workflow
 
 ### Commands
-- `go`: Search projects
-- `go_clear_cache`: clear all local cache
+- `go`: Search bookmark links in `go_list.txt` file. 
+- `go_clear_cache`: clear all local cache. After you change the `go_list.txt` file, you should run this command to clear local cache. 
 - `go_edit_list_links`: open `go_list.txt` file to add/update/delete bookmark links.
 
 ### Link format in `go_list.txt`
@@ -43,6 +43,8 @@ go/helpdesk | Go Helpdesk page
 ```
 https://abc.com/browse/{0} | Search...
 ```
+- For more other format, please create a request ticket. 
+
 ## Development
 
 - `yarn run export-wf`: zip entire project and export to `exported-workflow-file/Go.alfredworklow` file 

@@ -10,7 +10,9 @@ const executors = require('./executors.js');
 
 const SEPARATOR = ' | ';
 const GO_LIST_FILE = './go_list.txt';
-
+const ONE_MINUTE = 1000 * 60;
+const ONE_HOUR = ONE_MINUTE * 60;
+const ONE_DAY = ONE_HOUR * 24;
 
 class CommandHandler {
     constructor(options) {
@@ -37,7 +39,7 @@ class CommandHandler {
             return '';
         }
 
-        storage.set('rawData', this.rawData, true);
+        storage.set('rawData', this.rawData, ONE_DAY);
         return this.rawData;
     }
 
