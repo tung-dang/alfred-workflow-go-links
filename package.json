@@ -2,7 +2,7 @@
   "name": "alfred-atlas-go-wf",
   "main": "src/main.js",
   "description": "Alfred workflow to search bookmarks in a simple formarted text file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "bugs": {
     "url": "https://github.com/tung-dang/alfred-workflow-go-links/issues"
